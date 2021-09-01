@@ -3,7 +3,7 @@
 @import "../scss/componentes/index";
 @import "../scss/componentes/destinos";
 
-
+/*ERROR 404*/
 @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
 
 .body-error{
@@ -18,7 +18,7 @@
   height: 100%;
   width: 100%;
   margin: 0px;
-  background: radial-gradient(circle, #240015 0%, #12000b 100%);
+  background: radial-gradient(circle, #301600 0%, #af5f04 100%);
   overflow: hidden;
 }
 
@@ -74,7 +74,7 @@ div{
 #id1_2,
 #id2_2,
 #id3_2{
-  stroke: #12000a;
+  stroke: #0f41e4;
   stroke-width: 3px;
   fill: transparent;
   filter: url(#glow);
@@ -114,58 +114,58 @@ div{
 }
 
 @keyframes flicker1{
-  0%  {stroke: #ffd5e5;}
+  0%  {stroke: #f8b568;}
   1%  {stroke: transparent;}
   3%  {stroke: transparent;}
-  4%  {stroke: #ff005d;}
-  6%  {stroke: #ff005d;}
+  4%  {stroke: #ff6600;}
+  6%  {stroke: #ff7300;}
   7%  {stroke: transparent;}
   13% {stroke: transparent;}
-  14% {stroke: #ff005d;}
-  100%{stroke: #ff005d;}
+  14% {stroke: #ff6600;}
+  100%{stroke: #ff8800;}
 }
 
 @keyframes flicker2{
-  0%  {stroke: #ff005d;}
-  50% {stroke: #ff005d;}
+  0%  {stroke: #0099ff;}
+  50% {stroke: #0099ff;}
   51% {stroke: transparent;}
   61% {stroke: transparent;}
-  62% {stroke: #ff005d;}
-  100%{stroke: #ff005d;}
+  62% {stroke: #0099ff;}
+  100%{stroke: #0099ff;}
 }
 
 @keyframes flicker3{
-  0%  {stroke: #ff005d;}
+  0%  {stroke: #ff7b00;}
   1%  {stroke: transparent;}
   10% {stroke: transparent;}
-  11% {stroke: #ff005d;}
-  40% {stroke: #ff005d;}
+  11% {stroke: #ff7b00;}
+  40% {stroke: #ff7b00;}
   41% {stroke: transparent;}
   45% {stroke: transparent;}
-  46% {stroke: #ff005d;}
-  100%{stroke: #ff005d;}
+  46% {stroke: #ff7b00;}
+  100%{stroke: #ff7b00;}
 }
 
 @keyframes flicker4{
-  0%  {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  30% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  0%  {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
+  30% {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
   31% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  32% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  36% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  32% {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
+  36% {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
   37% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
   41% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  42% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  85% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  42% {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
+  85% {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
   86% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
   95% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  96% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  96% {color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
+  100%{color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
 }
 
 @keyframes fadeInText{
   1%  {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  70% {color: #ff005d;text-shadow:0px 0px 14px #ff005d;}
-  100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  70% {color: #ff7b00;text-shadow:0px 0px 14px #ff7b00;}
+  100%{color: #ff7b00;text-shadow:0px 0px 4px #ff7b00;}
 }
 
 @keyframes hueRotate{

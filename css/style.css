@@ -134,6 +134,7 @@ header .upper .fa:hover {
   width: 50%;
 }
 
+/*ERROR 404*/
 .body-error {
   margin: 0px;
   overflow: hidden;
@@ -146,7 +147,7 @@ header .upper .fa:hover {
   height: 100%;
   width: 100%;
   margin: 0px;
-  background: radial-gradient(circle, #240015 0%, #12000b 100%);
+  background: radial-gradient(circle, #301600 0%, #af5f04 100%);
   overflow: hidden;
 }
 
@@ -202,7 +203,7 @@ div {
 #id1_2,
 #id2_2,
 #id3_2 {
-  stroke: #12000a;
+  stroke: #0f41e4;
   stroke-width: 3px;
   fill: transparent;
   filter: url(#glow);
@@ -252,7 +253,7 @@ div {
 }
 @keyframes flicker1 {
   0% {
-    stroke: #ffd5e5;
+    stroke: #f8b568;
   }
   1% {
     stroke: transparent;
@@ -261,10 +262,10 @@ div {
     stroke: transparent;
   }
   4% {
-    stroke: #ff005d;
+    stroke: #ff6600;
   }
   6% {
-    stroke: #ff005d;
+    stroke: #ff7300;
   }
   7% {
     stroke: transparent;
@@ -273,18 +274,18 @@ div {
     stroke: transparent;
   }
   14% {
-    stroke: #ff005d;
+    stroke: #ff6600;
   }
   100% {
-    stroke: #ff005d;
+    stroke: #ff8800;
   }
 }
 @keyframes flicker2 {
   0% {
-    stroke: #ff005d;
+    stroke: #0099ff;
   }
   50% {
-    stroke: #ff005d;
+    stroke: #0099ff;
   }
   51% {
     stroke: transparent;
@@ -293,15 +294,15 @@ div {
     stroke: transparent;
   }
   62% {
-    stroke: #ff005d;
+    stroke: #0099ff;
   }
   100% {
-    stroke: #ff005d;
+    stroke: #0099ff;
   }
 }
 @keyframes flicker3 {
   0% {
-    stroke: #ff005d;
+    stroke: #ff7b00;
   }
   1% {
     stroke: transparent;
@@ -310,10 +311,10 @@ div {
     stroke: transparent;
   }
   11% {
-    stroke: #ff005d;
+    stroke: #ff7b00;
   }
   40% {
-    stroke: #ff005d;
+    stroke: #ff7b00;
   }
   41% {
     stroke: transparent;
@@ -322,32 +323,32 @@ div {
     stroke: transparent;
   }
   46% {
-    stroke: #ff005d;
+    stroke: #ff7b00;
   }
   100% {
-    stroke: #ff005d;
+    stroke: #ff7b00;
   }
 }
 @keyframes flicker4 {
   0% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   30% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   31% {
     color: #12000a;
     text-shadow: 0px 0px 4px #12000a;
   }
   32% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   36% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   37% {
     color: #12000a;
@@ -358,12 +359,12 @@ div {
     text-shadow: 0px 0px 4px #12000a;
   }
   42% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   85% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   86% {
     color: #12000a;
@@ -374,12 +375,12 @@ div {
     text-shadow: 0px 0px 4px #12000a;
   }
   96% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
   100% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
 }
 @keyframes fadeInText {
@@ -388,12 +389,12 @@ div {
     text-shadow: 0px 0px 4px #12000a;
   }
   70% {
-    color: #ff005d;
-    text-shadow: 0px 0px 14px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 14px #ff7b00;
   }
   100% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #ff7b00;
+    text-shadow: 0px 0px 4px #ff7b00;
   }
 }
 @keyframes hueRotate {
